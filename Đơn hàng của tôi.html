@@ -1,0 +1,334 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ĐƠN HÀNG CỦA TÔI</title>
+    <link rel="stylesheet" type="text/css" href="./Css/basecss.css" />
+    <link rel="stylesheet" type="text/css" href="./Css/webcss.css" />
+    <link rel="stylesheet" type="text/css" href="././fontawesome-free-5.14.0-web/css/all.min.css" />
+    <script type="text/javascript" src="./JavaScript/webjs.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-with-search">
+
+           <div class="header__logo">
+                <img class="logo" src="./Image/logo-dong-ho.png" alt="">
+           </div>
+           <div class="header__search" >
+            <div class="header__search-wrap">
+                <input class="header__search-input" value placeholder="Nhập để tìm kiếm" onkeyup="timkiem();" id="search" />
+                <ul class="header__search-history-list"  id="goiy">
+                    <h3 class="header__search-history-heading">Gợi ý</h3>
+                    <li class="header__search-history-icon"><a href="./Casio/Casio.html">Casio </a></li>
+                    <li class="header__search-history-icon"><a href="./Fossil/Fossil.html">Fossil</a></li>
+                    <li class="header__search-history-icon"><a href="./Tissot/Tissot.html">Tissot</a></li>
+                    <li class="header__search-history-icon"><a href="./Tissot/Pro_Tssot1.html">Tissot T097</a></li>
+                    <li class="header__search-history-icon"><a href="./Tissot/Pro_Tissot2.html">Tissot T063</a></li>
+                    <li class="header__search-history-icon"><a href="./Casio/Pro_Casio1.html">Casio LTP-VT01GL-9BUDF</a></li>
+                    <li class="header__search-history-icon"><a href="./Casio/Pro_Casio2.html">Casio MTP-VT01GL-2BUDF</a></li>
+                    <li class="header__search-history-icon"><a href="./Fossil/Pro_Fossil.html">Fossil FS5404</a></li>
+                    <li class="header__search-history-icon"><a href="./Fossil/Fossil2.html">Fossil FS5383</a></li>
+                </ul>
+
+            </div>
+            <button class="header__search-btn" > <i class="header__search-btn-icon fas fa-search"></i> </button>
+        </div>
+            <div class="header__cart">
+                
+            </div>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a class="active" href="./index.html"><i class="fa fa-fw fa-home"></i> Trang chủ</a></li>
+                <li><a class="active" href="#">Thương hiệu</a>
+                    <ul class="sub-menu">
+                        <li><a class="catagory-item__link" href="./Casio/./Casio.html">Casio</a></li>
+                        <li><a class="catagory-item__link" href="./Fossil/./Fossil.html">Fossil</a></li>
+                        <li><a class="catagory-item__link" href="">Tissot</a></li>
+                        <li><a class="catagory-item__link" href="">Orient</a></li>
+                    </ul>
+                </li>
+                <li><a class="active" href="#">Đồng hồ nam</a>
+                    <ul class="sub-menu">
+                        <li><a class="catagory-item__link" href="">Thương hiệu</a>
+                            <ul class="sub-menu1">
+                                <li><a class="catagory-item__link" href="./Casio/./Casio.html">Casio</a></li>
+                                <li><a class="catagory-item__link" href="./Fossil/./Fossil.html">Fossil</a></li>
+                                <li><a class="catagory-item__link" href="">Tissot</a></li>
+                                <li><a class="catagory-item__link" href="">Orient</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="catagory-item__link" href="">Mức giá</a>
+                            <ul class="sub-menu1">
+                                <li><a class="catagory-item__link" href="">Dưới 5 triệu</a></li>
+                                <li><a class="catagory-item__link" href="">5-10 triệu</a></li>
+                                <li><a class="catagory-item__link" href="">10-20 triệu</a></li>
+                                <li><a class="catagory-item__link" href="">Trên 20 triệu</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="catagory-item__link" href="">Loại dây</a>
+                            <ul class="sub-menu1">
+                                <li><a class="catagory-item__link" href="">Thép không gỉ</a></li>
+                                <li><a class="catagory-item__link" href="">Dây da</a></li>
+                                <li><a class="catagory-item__link" href="">Dây vải</a></li>
+                                <li><a class="catagory-item__link" href="">Dây cao su</a></li>
+                                <li><a class="catagory-item__link" href="">Dây nhựa</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="catagory-item__link" href="">Bộ máy</a>
+                            <ul class="sub-menu1">
+                                <li><a class="catagory-item__link" href="">Automatic</a></li>
+                                <li><a class="catagory-item__link" href="">Quartz</a></li>
+                                <li><a class="catagory-item__link" href="">Năng lượng mặt trời</a></li>
+                                <li><a class="catagory-item__link" href="">Kinetic</a></li>
+                                <li><a class="catagory-item__link" href="">Lên cót tay</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="catagory-item__link" href="">Size mặt</a>
+                            <ul class="sub-menu1">
+                                <li><a class="catagory-item__link" href="">Dưới 30mm</a></li>
+                                <li><a class="catagory-item__link" href="">Từ 30-34mm</a></li>
+                                <li><a class="catagory-item__link" href="">Từ 35-39mm</a></li>
+                                <li><a class="catagory-item__link" href="">Từ 40-43mm</a></li>
+                                <li><a class="catagory-item__link" href="">Trên 43mm</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a class="active" href="#">Đồng hồ nữ</a>
+                    <ul class="sub-menu">
+                        <li><a class="catagory-item__link" href="">Thương hiệu</a>
+                            <ul class="sub-menu1">
+                                <li><a class="catagory-item__link" href="./Casio/Casio.html">Casio</a></li>
+                                <li><a class="catagory-item__link" href="./Fossil/Fossil.html">Fossil</a></li>
+                                <li><a class="catagory-item__link" href="">Tissot</a></li>
+                                <li><a class="catagory-item__link" href="">Orient</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="catagory-item__link" href="">Mức giá</a>
+                            <ul class="sub-menu1">
+                                <li><a class="catagory-item__link" href="">Dưới 5 triệu</a></li>
+                                <li><a class="catagory-item__link" href="">5-10 triệu</a></li>
+                                <li><a class="catagory-item__link" href="">10-20 triệu</a></li>
+                                <li><a class="catagory-item__link" href="">Trên 20 triệu</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="catagory-item__link" href="">Loại dây</a>
+                            <ul class="sub-menu1">
+                                <li><a class="catagory-item__link" href="">Thép không gỉ</a></li>
+                                <li><a class="catagory-item__link" href="">Dây da</a></li>
+                                <li><a class="catagory-item__link" href="">Dây vải</a></li>
+                                <li><a class="catagory-item__link" href="">Dây cao su</a></li>
+                                <li><a class="catagory-item__link" href="">Dây nhựa</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="catagory-item__link" href="">Bộ máy</a>
+                            <ul class="sub-menu1">
+                                <li><a class="catagory-item__link" href="">Automatic</a></li>
+                                <li><a class="catagory-item__link" href="">Quartz</a></li>
+                                <li><a class="catagory-item__link" href="">Năng lượng mặt trời</a></li>
+                                <li><a class="catagory-item__link" href="">Kinetic</a></li>
+                                <li><a class="catagory-item__link" href="">Lên cót tay</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="catagory-item__link" href="">Size mặt</a>
+                            <ul class="sub-menu1">
+                                <li><a class="catagory-item__link" href="">Dưới 30mm</a></li>
+                                <li><a class="catagory-item__link" href="">Từ 30-34mm</a></li>
+                                <li><a class="catagory-item__link" href="">Từ 35-39mm</a></li>
+                                <li><a class="catagory-item__link" href="">Từ 40-43mm</a></li>
+                                <li><a class="catagory-item__link" href="">Trên 43mm</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a class="active" href="./gioithieu.html"><i class=""></i> Giới thiệu</a></li>
+                <li><a class="active" href="./lienhe.html"><i class="fa fa-fw fa-envelope"></i> Liên hệ</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container" style="margin-top: 20px">
+        <div class="grid">
+
+            <div class="grid__row">
+                <div class="grid__column-12">
+                    <!-- nội dung -->
+                    <h2 class="myBill-heading">Đơn hàng của tôi</h2>
+                    <div class="date1"></div>
+                    <!--Table head-->
+                    <table class="table table-hover" style="text-align: center; background-color: white;">
+
+                        <!--Table head-->
+                        <thead class="table-primary"> 
+                            <tr style="height: 40px;">
+                                <th>STT</th>
+                                <th>Tên sản phẩm</th>
+                                <th>Ảnh</th>
+                                <th>Số lượng</th>
+                                <th>Tổng tiền</th>
+                                <th>Xóa</th>
+                            </tr>
+                        </thead>
+                        <!--Table head-->
+
+                        <!--Table body-->
+                        <tbody style="font-size: 15px;" class="bt1">
+                            <tr name="sp1" id="1">
+                                <td scope="row">1</td>
+                                <td>Casio A168WEGB-1BDF</td>
+                                <td><img style="width: 150px," src="./Image/Casio/Casio LTP-VT01GL-9BUDF.jpg" alt="" class="table-img"></td>
+                                <td>
+                                    <button class="qldh" onclick="giamSL('SLhang2')">-</button><input style="text-align: center; border: none; height: 27px;" type="text" value="1" size="2px;" id="SLhang2"><button class="qldh" onclick="tangSL('SLhang2')">+</button>
+                                </td>
+                                <td>4.000.000đ</td>
+                                <td><a onclick="deleteRow(this)" href="#"><i style="color: #d4020d;" class="fa fa-trash"></i></a></td>
+
+                            </tr>
+                            <tr name="sp2" id="2">
+                                <td scope="row">2</td>
+                                <td>Fossil FS5464</td>
+                                <td><img style="width: 150px;" src="./Image/Fossil/Fossil FS5464.jpg" alt="" class="table-img"></td>
+                                <td>
+                                    <button class="qldh" onclick="giamSL('SLhang3')">-</button><input style="text-align: center; border: none; height: 27px;" type="text" value="1" size="2px;" id="SLhang3"><button class="qldh" onclick="tangSL('SLhang3')">+</button>
+                                </td>
+                                <td>4.800.000đ</td>
+                                <td><a onclick="deleteRow(this)" href="#"><i style="color: #d4020d;" class="fa fa-trash"></i></a></td>
+
+
+                            </tr>
+                            <tr name="sp3" id="3">
+                                <td scope="row">3</td>
+                                <td >Fossil FS5402</td>
+                                <td><img style="width: 150px;" src="./Image/Fossil/Fossil FS5440.jpg" alt="" class="table-img"></td>
+                                <td >
+                                    <button class="qldh" onclick="giamSL('SLhang4')">-</button><input style="text-align: center; border: none; height: 27px;" type="text" value="1" size="2px;" id="SLhang4"><button class="qldh" onclick="tangSL('SLhang4')">+</button>
+                                </td>
+                                <td>2.499.000đ</td>
+                                <td><a onclick="deleteRow(this)" href="#"><i style="color: #d4020d;" class="fa fa-trash"></i></a></td>
+                            </tr>
+                            <tr name="sp4" id="4">
+                                <td scope="row">4</td>
+                                <td>Casio AE-1200WHD-1AVDF</td>
+                                <td><img style="width: 150px;" src="./Image/./Casio/Casio AE-1200WHD-1AVDF.jpg" alt="" class="table-img"></td>
+                                <td>
+                                    <button class="qldh" onclick="giamSL('SLhang5')">-</button><input style="text-align: center; border: none; height: 27px;" type="text" value="1" size="2px;" id="SLhang5"><button class="qldh" onclick="tangSL('SLhang5')">+</button>
+                                </td>
+                                <td>3.650.000đ</td>
+                                <td><a onclick="deleteRow(this)" href="#"><i style="color: #d4020d;" class="fa fa-trash"></i></a></td>
+                            </tr>
+                            <tr name="sp3" class="sp3">
+                                <td scope="row">5</td>
+                                <td >Fossil FS5383</td>
+                                <td><img style="width: 150px;" src="./Image/Fossil/./Fossil FS5383.jpg" alt="" class="table-img"></td>
+                                <td >
+                                    <button class="qldh" onclick="giamSL('SLhang6')">-</button><input style="text-align: center; border: none; height: 27px;" type="text" value="1" size="2px;" id="SLhang6"><button class="qldh" onclick="tangSL('SLhang6')">+</button>
+                                </td>
+                                <td >4.700.000đ</td>
+                                <td ><a onclick="deleteRow(this)" href="#"><i style="color: #d4020d;" class="fa fa-trash"></i></a></td>
+                            </tr>
+
+                        </tbody>
+                        <!--Table body-->
+
+                    </table>
+                    <!--Table-->
+                    <!-- hết nội dung -->
+					
+					<div class="paymment">
+						<button class="btn-payment" onClick="payment()">Thanh toán</button>
+					</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="grid">
+            <div class="grid__row">
+                <div class="grid__column-2-4-1">
+                    <h3 class="footer__heading">Thông tin liên hệ</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item"> 
+                            <div class="hotline-bt">
+                                <a class="hotline-bt__detail" title="Tư Vấn Bán Hàng">
+                        1900 0325
+                    <span>
+                        <i class="fas fa-phone-square-alt"></i>
+                        Tư vấn bán hàng
+                    </span>
+                    </a>
+                            </div>
+                        </li>
+                        <li class="footer__item"> 
+                            <div class="hotline-bt">
+                                <a class="hotline-bt__detail" title="Hỗ Trợ Dịch Vụ">
+                        0924 714 551
+                    <span>
+                        <i class="far fa-comment-alt"></i>
+                        Hỗ trợ dịch vụ
+                    </span>
+                    </a>
+                            </div>
+                        </li>
+                        <li class="footer__item"> 
+                            <div class="hotline-bt">
+                                <a class="hotline-bt__detail" title="Tư Vấn Kĩ Thuật">
+                        0924 714 551
+                    <span>
+                        <i class="fas fa-cog"></i>
+                        Tư vấn kĩ thuật
+                    </span>
+                    </a>
+                            </div>
+                        </li>
+                    </ul>
+                      
+                </div>
+                <div class="grid__column-2-4-1">
+                    <h3 class="footer__heading">hỗ trợ</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item"> <a href=" " class="footer__item-link">Chăm sóc khách hàng</a> </li>
+                        <li class="footer__item"> <a href=" " class="footer__item-link">Hướng dẫn đổi trả</a> </li>
+                        <li class="footer__item"> <a href=" " class="footer__item-link">Chính sách bảo hành</a> </li>
+                        <li class="footer__item"> <a href=" " class="footer__item-link">Tra cứu bảo hành</a> </li>
+                        <li class="footer__item"> <a href=" " class="footer__item-link">Hướng dẫn thanh toán</a> </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4-1">
+                    <h3 class="footer__heading">Liên kết</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item"> <a href=" " class="footer__item-link">Thương hiệu</a> </li>
+                        <li class="footer__item"> <a href=" " class="footer__item-link">Đồng hồ nam</a> </li>
+                        <li class="footer__item"> <a href=" " class="footer__item-link">Đồng hồ nữ</a> </li>
+                        <li class="footer__item"> <a href=" " class="footer__item-link">Giới thiệu</a> </li>
+                        <li class="footer__item"> <a href=" " class="footer__item-link">Liên hệ</a> </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4-1">
+                    <h3 class="footer__heading">Tiện ích</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item"> <a href=" " class="footer__item-link">Kiến thức về đồng hồ</a> </li>
+                        <li class="footer__item"> <a href=" " class="footer__item-link">Tuyển dụng</a> </li>
+                        <li class="footer__item"> <a href=" " class="footer__item-link">Tải ứng dụng ngay:</a> </li>
+                        <li class="footer__item"> <img src="./Image/img-appstore.jpg" alt=""></li>
+                        <li class="footer__item"> <img src="./Image/img-googleplay.jpg" alt=""></li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="grid">
+                <p class="footer__text">@CopyRight XWATCH.vn</p>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+
+</html>
